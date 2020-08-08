@@ -16,5 +16,10 @@ namespace TP_Login_Versiones
         {
             InitializeComponent();
         }
+
+        private void frm_logueo_Load(object sender, EventArgs e)
+        {
+            txt_contraseña.PasswordChar = '*';
+        }
     }
 }
